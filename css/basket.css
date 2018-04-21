@@ -1,0 +1,42 @@
+/*Font*/
+/*1920px - 1440px*/
+/*1440px - 1024px*/
+/* 1023px - 992px*/
+/* 991px - 768px */
+/* 767px - 481px */
+/* 480px - 320px */
+#mm-contact{
+  color: #ce4949;
+}
+
+#page{
+  background-image: url(../images/bg-paws.jpg);
+  background-position: left top;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.form-group{
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+label{
+  width: 20%;
+  padding: 5px;
+}
+
+.input-s, .bootstrap-select, textarea{
+  width: 75% ;
+  
+}
+textarea{
+  border: 1px solid #222;
+}
+textarea:placeholder, .input-s:placeholder{
+  color: #aaa;
+}

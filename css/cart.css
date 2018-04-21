@@ -1,0 +1,309 @@
+/*Font*/
+/*1920px - 1440px*/
+/*1440px - 1024px*/
+/* 1023px - 992px*/
+/* 991px - 768px */
+/* 767px - 481px */
+/* 480px - 320px */
+.cart-section {
+  margin-top: 90px; }
+  .cart-section span {
+    color: #EE7E31; }
+  .cart-section .table-title .greyborderbox, .cart-section .table-title .bg-light-grey, .cart-section .table-activity .greyborderbox, .cart-section .table-activity .bg-light-grey, .cart-section .table-expired .greyborderbox, .cart-section .table-expired .bg-light-grey {
+    margin-bottom: 0px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px; }
+    @media screen and (max-width: 991px) {
+      .cart-section .table-title .greyborderbox, .cart-section .table-title .bg-light-grey, .cart-section .table-activity .greyborderbox, .cart-section .table-activity .bg-light-grey, .cart-section .table-expired .greyborderbox, .cart-section .table-expired .bg-light-grey {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        align-items: center; } }
+    .cart-section .table-title .greyborderbox .photo, .cart-section .table-title .bg-light-grey .photo, .cart-section .table-activity .greyborderbox .photo, .cart-section .table-activity .bg-light-grey .photo, .cart-section .table-expired .greyborderbox .photo, .cart-section .table-expired .bg-light-grey .photo {
+      width: 19%;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      height: 120px; }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .photo, .cart-section .table-title .bg-light-grey .photo, .cart-section .table-activity .greyborderbox .photo, .cart-section .table-activity .bg-light-grey .photo, .cart-section .table-expired .greyborderbox .photo, .cart-section .table-expired .bg-light-grey .photo {
+          width: 16.5%;
+          height: 100px; } }
+      @media screen and (max-width: 480px) {
+        .cart-section .table-title .greyborderbox .photo, .cart-section .table-title .bg-light-grey .photo, .cart-section .table-activity .greyborderbox .photo, .cart-section .table-activity .bg-light-grey .photo, .cart-section .table-expired .greyborderbox .photo, .cart-section .table-expired .bg-light-grey .photo {
+          width: 30%;
+          height: 100px;
+          margin-top: -60px; } }
+      .cart-section .table-title .greyborderbox .photo img, .cart-section .table-title .bg-light-grey .photo img, .cart-section .table-activity .greyborderbox .photo img, .cart-section .table-activity .bg-light-grey .photo img, .cart-section .table-expired .greyborderbox .photo img, .cart-section .table-expired .bg-light-grey .photo img {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        right: 0;
+        bottom: -100%;
+        margin: auto;
+        margin-left: 50%;
+        /* Move to the left by 50% of own width */
+        transform: translateX(-50%);
+        width: auto;
+        height: 100%; }
+    .cart-section .table-title .greyborderbox .name, .cart-section .table-title .bg-light-grey .name, .cart-section .table-activity .greyborderbox .name, .cart-section .table-activity .bg-light-grey .name, .cart-section .table-expired .greyborderbox .name, .cart-section .table-expired .bg-light-grey .name {
+      width: 38%;
+      padding: 1%;
+      padding-left: 2%; }
+      .cart-section .table-title .greyborderbox .name b, .cart-section .table-title .bg-light-grey .name b, .cart-section .table-activity .greyborderbox .name b, .cart-section .table-activity .bg-light-grey .name b, .cart-section .table-expired .greyborderbox .name b, .cart-section .table-expired .bg-light-grey .name b {
+        font-weight: 500; }
+      @media screen and (max-width: 1025px) {
+        .cart-section .table-title .greyborderbox .name, .cart-section .table-title .bg-light-grey .name, .cart-section .table-activity .greyborderbox .name, .cart-section .table-activity .bg-light-grey .name, .cart-section .table-expired .greyborderbox .name, .cart-section .table-expired .bg-light-grey .name {
+          width: 33%; } }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .name, .cart-section .table-title .bg-light-grey .name, .cart-section .table-activity .greyborderbox .name, .cart-section .table-activity .bg-light-grey .name, .cart-section .table-expired .greyborderbox .name, .cart-section .table-expired .bg-light-grey .name {
+          width: 38%; } }
+      @media screen and (max-width: 767px) {
+        .cart-section .table-title .greyborderbox .name, .cart-section .table-title .bg-light-grey .name, .cart-section .table-activity .greyborderbox .name, .cart-section .table-activity .bg-light-grey .name, .cart-section .table-expired .greyborderbox .name, .cart-section .table-expired .bg-light-grey .name {
+          width: 64%; } }
+      @media screen and (max-width: 480px) {
+        .cart-section .table-title .greyborderbox .name, .cart-section .table-title .bg-light-grey .name, .cart-section .table-activity .greyborderbox .name, .cart-section .table-activity .bg-light-grey .name, .cart-section .table-expired .greyborderbox .name, .cart-section .table-expired .bg-light-grey .name {
+          width: 65%;
+          padding-left: 5%; }
+          .cart-section .table-title .greyborderbox .name b, .cart-section .table-title .bg-light-grey .name b, .cart-section .table-activity .greyborderbox .name b, .cart-section .table-activity .bg-light-grey .name b, .cart-section .table-expired .greyborderbox .name b, .cart-section .table-expired .bg-light-grey .name b {
+            display: block; } }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .name h5, .cart-section .table-title .bg-light-grey .name h5, .cart-section .table-activity .greyborderbox .name h5, .cart-section .table-activity .bg-light-grey .name h5, .cart-section .table-expired .greyborderbox .name h5, .cart-section .table-expired .bg-light-grey .name h5 {
+          font-size: 1.2em;
+          line-height: 1.5;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          font-weight: 700; } }
+      .cart-section .table-title .greyborderbox .name .desc, .cart-section .table-title .bg-light-grey .name .desc, .cart-section .table-activity .greyborderbox .name .desc, .cart-section .table-activity .bg-light-grey .name .desc, .cart-section .table-expired .greyborderbox .name .desc, .cart-section .table-expired .bg-light-grey .name .desc {
+        color: #aaa; }
+        @media screen and (max-width: 991px) {
+          .cart-section .table-title .greyborderbox .name .desc, .cart-section .table-title .bg-light-grey .name .desc, .cart-section .table-activity .greyborderbox .name .desc, .cart-section .table-activity .bg-light-grey .name .desc, .cart-section .table-expired .greyborderbox .name .desc, .cart-section .table-expired .bg-light-grey .name .desc {
+            margin: 0px; } }
+    .cart-section .table-title .greyborderbox .date, .cart-section .table-title .bg-light-grey .date, .cart-section .table-activity .greyborderbox .date, .cart-section .table-activity .bg-light-grey .date, .cart-section .table-expired .greyborderbox .date, .cart-section .table-expired .bg-light-grey .date {
+      width: 14%;
+      padding-right: 1%;
+      line-height: 2.5; }
+      .cart-section .table-title .greyborderbox .date p, .cart-section .table-title .bg-light-grey .date p, .cart-section .table-activity .greyborderbox .date p, .cart-section .table-activity .bg-light-grey .date p, .cart-section .table-expired .greyborderbox .date p, .cart-section .table-expired .bg-light-grey .date p {
+        margin: 0; }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .date, .cart-section .table-title .bg-light-grey .date, .cart-section .table-activity .greyborderbox .date, .cart-section .table-activity .bg-light-grey .date, .cart-section .table-expired .greyborderbox .date, .cart-section .table-expired .bg-light-grey .date {
+          line-height: 1.5;
+          margin-top: 0px;
+          width: 18%; } }
+    .cart-section .table-title .greyborderbox .input-group, .cart-section .table-title .bg-light-grey .input-group, .cart-section .table-activity .greyborderbox .input-group, .cart-section .table-activity .bg-light-grey .input-group, .cart-section .table-expired .greyborderbox .input-group, .cart-section .table-expired .bg-light-grey .input-group {
+      width: 14%;
+      padding-right: 1%; }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .input-group, .cart-section .table-title .bg-light-grey .input-group, .cart-section .table-activity .greyborderbox .input-group, .cart-section .table-activity .bg-light-grey .input-group, .cart-section .table-expired .greyborderbox .input-group, .cart-section .table-expired .bg-light-grey .input-group {
+          width: 20%; } }
+      @media screen and (max-width: 767px) {
+        .cart-section .table-title .greyborderbox .input-group, .cart-section .table-title .bg-light-grey .input-group, .cart-section .table-activity .greyborderbox .input-group, .cart-section .table-activity .bg-light-grey .input-group, .cart-section .table-expired .greyborderbox .input-group, .cart-section .table-expired .bg-light-grey .input-group {
+          width: 30%;
+          margin-left: 35%;
+          margin-top: -25px; } }
+      @media screen and (max-width: 480px) {
+        .cart-section .table-title .greyborderbox .input-group, .cart-section .table-title .bg-light-grey .input-group, .cart-section .table-activity .greyborderbox .input-group, .cart-section .table-activity .bg-light-grey .input-group, .cart-section .table-expired .greyborderbox .input-group, .cart-section .table-expired .bg-light-grey .input-group {
+          width: 50%;
+          margin-left: 40%;
+          margin-top: -25px; } }
+    .cart-section .table-title .greyborderbox .hr, .cart-section .table-title .bg-light-grey .hr, .cart-section .table-activity .greyborderbox .hr, .cart-section .table-activity .bg-light-grey .hr, .cart-section .table-expired .greyborderbox .hr, .cart-section .table-expired .bg-light-grey .hr {
+      border-top: 1px solid #ddd;
+      margin: 10px 0px;
+      width: 100%; }
+    .cart-section .table-title .greyborderbox .price, .cart-section .table-title .bg-light-grey .price, .cart-section .table-activity .greyborderbox .price, .cart-section .table-activity .bg-light-grey .price, .cart-section .table-expired .greyborderbox .price, .cart-section .table-expired .bg-light-grey .price {
+      width: 15%;
+      color: #EE7E31;
+      font-size: 1.1em;
+      text-align: center; }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .price, .cart-section .table-title .bg-light-grey .price, .cart-section .table-activity .greyborderbox .price, .cart-section .table-activity .bg-light-grey .price, .cart-section .table-expired .greyborderbox .price, .cart-section .table-expired .bg-light-grey .price {
+          width: 20%;
+          text-align: center; } }
+      @media screen and (max-width: 767px) {
+        .cart-section .table-title .greyborderbox .price, .cart-section .table-title .bg-light-grey .price, .cart-section .table-activity .greyborderbox .price, .cart-section .table-activity .bg-light-grey .price, .cart-section .table-expired .greyborderbox .price, .cart-section .table-expired .bg-light-grey .price {
+          width: 30%;
+          margin-left: 5%;
+          text-align: left; } }
+      @media screen and (max-width: 480px) {
+        .cart-section .table-title .greyborderbox .price, .cart-section .table-title .bg-light-grey .price, .cart-section .table-activity .greyborderbox .price, .cart-section .table-activity .bg-light-grey .price, .cart-section .table-expired .greyborderbox .price, .cart-section .table-expired .bg-light-grey .price {
+          margin-left: 0;
+          width: 40%; } }
+    .cart-section .table-title .greyborderbox .edit-delete, .cart-section .table-title .bg-light-grey .edit-delete, .cart-section .table-activity .greyborderbox .edit-delete, .cart-section .table-activity .bg-light-grey .edit-delete, .cart-section .table-expired .greyborderbox .edit-delete, .cart-section .table-expired .bg-light-grey .edit-delete {
+      width: 15%;
+      text-align: right; }
+      @media screen and (max-width: 991px) {
+        .cart-section .table-title .greyborderbox .edit-delete, .cart-section .table-title .bg-light-grey .edit-delete, .cart-section .table-activity .greyborderbox .edit-delete, .cart-section .table-activity .bg-light-grey .edit-delete, .cart-section .table-expired .greyborderbox .edit-delete, .cart-section .table-expired .bg-light-grey .edit-delete {
+          width: 100%;
+          margin: 10px 0px; } }
+      @media screen and (max-width: 767px) {
+        .cart-section .table-title .greyborderbox .edit-delete, .cart-section .table-title .bg-light-grey .edit-delete, .cart-section .table-activity .greyborderbox .edit-delete, .cart-section .table-activity .bg-light-grey .edit-delete, .cart-section .table-expired .greyborderbox .edit-delete, .cart-section .table-expired .bg-light-grey .edit-delete {
+          width: 60%; } }
+      .cart-section .table-title .greyborderbox .edit-delete a, .cart-section .table-title .bg-light-grey .edit-delete a, .cart-section .table-activity .greyborderbox .edit-delete a, .cart-section .table-activity .bg-light-grey .edit-delete a, .cart-section .table-expired .greyborderbox .edit-delete a, .cart-section .table-expired .bg-light-grey .edit-delete a {
+        color: #aaa;
+        padding: 0px 15px;
+        cursor: pointer; }
+        @media screen and (max-width: 767px) {
+          .cart-section .table-title .greyborderbox .edit-delete a, .cart-section .table-title .bg-light-grey .edit-delete a, .cart-section .table-activity .greyborderbox .edit-delete a, .cart-section .table-activity .bg-light-grey .edit-delete a, .cart-section .table-expired .greyborderbox .edit-delete a, .cart-section .table-expired .bg-light-grey .edit-delete a {
+            padding: 0px 5px; } }
+      .cart-section .table-title .greyborderbox .edit-delete .popup-details, .cart-section .table-title .bg-light-grey .edit-delete .popup-details, .cart-section .table-activity .greyborderbox .edit-delete .popup-details, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details, .cart-section .table-expired .greyborderbox .edit-delete .popup-details, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details {
+        width: 25%;
+        background-color: #f4f4f4;
+        position: absolute;
+        z-index: 999;
+        margin-top: -3%;
+        margin-left: -21%;
+        opacity: 0;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px;
+        text-align: left;
+        /*iphone x*/ }
+        @media screen and (max-width: 991px) {
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details, .cart-section .table-title .bg-light-grey .edit-delete .popup-details, .cart-section .table-activity .greyborderbox .edit-delete .popup-details, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details, .cart-section .table-expired .greyborderbox .edit-delete .popup-details, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details {
+            width: 42%;
+            margin-top: -4.5%;
+            margin-left: -38%; } }
+        @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details, .cart-section .table-title .bg-light-grey .edit-delete .popup-details, .cart-section .table-activity .greyborderbox .edit-delete .popup-details, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details, .cart-section .table-expired .greyborderbox .edit-delete .popup-details, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            position: fixed;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            margin-top: 0;
+            margin-left: 0;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            padding: 0; } }
+        @media screen and (max-width: 767px) {
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details, .cart-section .table-title .bg-light-grey .edit-delete .popup-details, .cart-section .table-activity .greyborderbox .edit-delete .popup-details, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details, .cart-section .table-expired .greyborderbox .edit-delete .popup-details, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            position: fixed;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            margin-top: 0;
+            margin-left: 0;
+            top: 0;
+            left: -100%;
+            opacity: 1;
+            z-index: 9999;
+            padding: 0;
+            -webkit-transition: all 0.4s ease-out;
+            transition: all 0.4s ease-out; } }
+        .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-header {
+          background-color: #fff;
+          width: 100%;
+          padding: 0;
+          display: none; }
+          @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+            .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-header {
+              display: block; } }
+          @media screen and (max-width: 767px) {
+            .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-header, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-header, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-header {
+              display: block; } }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-header .icon, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-header .icon, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-header .icon, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-header .icon, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-header .icon, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-header .icon {
+            margin: 15px; }
+        .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body {
+          padding: 15px;
+          color: #15394d; }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .input-group, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .input-group, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .input-group {
+            width: 40%;
+            padding-top: 15px; }
+            @media screen and (max-width: 991px) {
+              .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .input-group, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .input-group, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .input-group, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .input-group {
+                width: 45%;
+                padding-top: 15px;
+                margin-top: 0px; } }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .price, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .price, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .price, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .price, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .price, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .price {
+            margin: 0;
+            padding: 0; }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .arrow, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .arrow, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .arrow {
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 10px solid #f4f4f4; }
+            @media screen and (max-width: 767px) {
+              .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .arrow, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .arrow, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .arrow, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .arrow {
+                display: none; } }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .desc, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .desc, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .desc, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .desc, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .desc, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .desc {
+            margin-bottom: 15px; }
+          .cart-section .table-title .greyborderbox .edit-delete .popup-details .popup-body .btn, .cart-section .table-title .bg-light-grey .edit-delete .popup-details .popup-body .btn, .cart-section .table-activity .greyborderbox .edit-delete .popup-details .popup-body .btn, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details .popup-body .btn, .cart-section .table-expired .greyborderbox .edit-delete .popup-details .popup-body .btn, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details .popup-body .btn {
+            width: 100%; }
+        .cart-section .table-title .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-title .bg-light-grey .edit-delete .popup-details.opened, .cart-section .table-activity .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details.opened, .cart-section .table-expired .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details.opened {
+          opacity: 1; }
+          @media screen and (max-width: 767px) {
+            .cart-section .table-title .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-title .bg-light-grey .edit-delete .popup-details.opened, .cart-section .table-activity .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-activity .bg-light-grey .edit-delete .popup-details.opened, .cart-section .table-expired .greyborderbox .edit-delete .popup-details.opened, .cart-section .table-expired .bg-light-grey .edit-delete .popup-details.opened {
+              left: 0; } }
+    .cart-section .table-title .greyborderbox:first-child, .cart-section .table-title .bg-light-grey:first-child, .cart-section .table-activity .greyborderbox:first-child, .cart-section .table-activity .bg-light-grey:first-child, .cart-section .table-expired .greyborderbox:first-child, .cart-section .table-expired .bg-light-grey:first-child {
+      border-bottom: 0px; }
+    .cart-section .table-title .greyborderbox:last-child, .cart-section .table-title .bg-light-grey:last-child, .cart-section .table-activity .greyborderbox:last-child, .cart-section .table-activity .bg-light-grey:last-child, .cart-section .table-expired .greyborderbox:last-child, .cart-section .table-expired .bg-light-grey:last-child {
+      border-top: 0px; }
+  .cart-section .table-title {
+    font-size: 1.1em;
+    line-height: 2.5;
+    color: #aaa;
+    vertical-align: middle;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 767px) {
+      .cart-section .table-title {
+        display: none; } }
+    .cart-section .table-title .photo {
+      height: auto !important; }
+    .cart-section .table-title .radio-group .checkmark {
+      background-color: #fff; }
+    .cart-section .table-title .price {
+      color: #aaa !important; }
+  .cart-section .table-expired .greyborderbox {
+    background-color: #f4f4f4; }
+  .cart-section .table-expired input[type=radio], .cart-section .table-expired .checkmark {
+    display: none; }
+  .cart-section .table-expired .input-group, .cart-section .table-expired .edit-delete {
+    opacity: .5; }
+  .cart-section .table-expired h5, .cart-section .table-expired .desc, .cart-section .table-expired .date, .cart-section .table-expired .price {
+    color: #aaa !important; }
+  .cart-section .table-expired .alert {
+    padding: 0;
+    margin: 0;
+    color: #f00;
+    font-size: 0.9em;
+    line-height: 1.2em; }
+  @media screen and (max-width: 480px) {
+    .cart-section .total-box {
+      width: 100%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      z-index: 900;
+      margin: 0; }
+      .cart-section .total-box .greyborderbox {
+        margin-bottom: 0;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px; } }
+  .cart-section .total-box .checkmark {
+    margin-top: 15px; }
+  @media screen and (max-width: 991px) {
+    .cart-section .total-box .price {
+      font-size: 1.5em; } }
+  @media screen and (max-width: 480px) {
+    .cart-section .total-box .price {
+      display: block; } }
+  .cart-section .total-box a {
+    line-height: 4;
+    color: #333333;
+    padding: 0px 15px;
+    cursor: pointer; }
+    @media screen and (max-width: 991px) {
+      .cart-section .total-box a {
+        padding: 0px 5px; } }
+  .cart-section .total-box .btn-lg {
+    margin: 0px; }
+    @media screen and (max-width: 767px) {
+      .cart-section .total-box .btn-lg {
+        margin: 5px 0px; } }
