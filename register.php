@@ -1,32 +1,35 @@
 <?php
     include("_include/config.php");
+
+    // If the values are posted, insert them into the database.
     if($_SERVER["REQUEST_METHOD"] == "POST")
     {
-        session_start();
-        // username and password sent from Form
-        $myusername=addslashes($_POST['username']);
-        $mypassword=addslashes($_POST['password']);
-         
-        $sql="SELECT id FROM admin WHERE username='$myusername' and passcode='$mypassword'";
-        $result=mysqli_query($bd,$sql);
-        $row=mysqli_fetch_array($result);
-        $active=$row['active'];
-        $count=mysqli_num_rows($result);
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+
+        $sql_check = "SELECT id FROM admin WHERE username='$myusername'";
+        $result_check = mysqli_query($bd,$sql_check);
+        $row = mysqli_fetch_array($result_check);
+        $active = $row['active'];
+        $count = mysqli_num_rows($result_check);
          
          
         // If result matched $myusername and $mypassword, table row must be 1 row
         if($count==1)
         {
-        $_SESSION['login_user']=$myusername;
-         
-        ob_start();
-        header("location: index.php");
-        ob_end_flush();
-        die();
+            $fmsg = "Username is duplicated! Please try another one";
         }
         else
         {
-        $error="Wrong Username / Password";
+            $sql = "INSERT INTO `admin` (username, passcode) VALUES ('$username', '$password')";
+            $result = mysqli_query($bd,$sql);
+
+            if($result){
+                $smsg = "User Created Successfully. You can try to login now!";
+            }else{
+                $fmsg ="User Registration Failed";
+            }
         }
     }
     
@@ -45,9 +48,9 @@
 
 <body>
     <div id="page">
-        <?php include("login/login.header.php") ?>
-        <?php include("login/login.main.php") ?>
-        
+        <?php include("register/register.header.php") ?>
+        <?php include("register/register.main.php") ?>
+        <?php echo $result ?>
         <?php include("_include/footer.php") ?>
         <?php include("_include/js.php") ?>
     </div>
@@ -76,7 +79,7 @@
                 }
             }
         });
-    </script>  
+    </script>   
 </body>
 
 </html>

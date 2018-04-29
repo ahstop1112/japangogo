@@ -9,5 +9,6 @@
 <link rel="stylesheet" href="css/lib/slick/slick.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/lib/slick/slick-lightbox.css" rel="stylesheet" />
 
+<link rel="stylesheet" href="css/lib/dropify.min.css">
 
 <link rel="stylesheet" type="text/css" href="css/main.css">

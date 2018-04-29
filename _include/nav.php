@@ -40,7 +40,7 @@
 
                 if ($isLogin) {
             ?>
-                <a class="txt-right" style="display: inline-block; width: 50%" ref="login.php">Register&nbsp;&nbsp;|&nbsp;&nbsp;Login&nbsp;&nbsp;</a>
+                <a class="txt-right" style="display: inline-block; width: 50%" href="register.php">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="login.php">Login&nbsp;&nbsp;</a>
             <?php
                 } else {
             ?>

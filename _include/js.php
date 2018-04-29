@@ -13,5 +13,12 @@
 <script src="js/lib/slick.min.js"></script>
 <script src="js/lib/slick-lightbox.js"></script>
 
+<!-- Validate JS -->
+<script src="js/lib/jquery.validate.min.js"></script>
+
+<!-- Dropify JS -->
+<script src="js/lib/dropify.min.js"></script>
+
+
 <!-- Main JS -->
 <script src="js/shopeasy.js"></script>

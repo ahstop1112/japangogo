@@ -68,7 +68,7 @@
 
                         if ($isLogin) {
                     ?>
-                        Register&nbsp;&nbsp;|&nbsp;&nbsp;<a href="login.php">Login</a>&nbsp;&nbsp;
+                        <a href="register.php">Register</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="login.php">Login</a>&nbsp;&nbsp;
                     <?php
                         } else {
                     ?>
