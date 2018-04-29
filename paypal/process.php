@@ -23,10 +23,10 @@ include_once("paypal.class.php");
 		// set an item via POST request
 		
 		$products[0]['ItemName'] = _POST('itemname'); //Item Name
-		$products[0]['ItemPrice'] = _POST('itemprice'); //Item Price
+		$products[0]['ItemPrice'] = _POST('TotalPrice'); //Item Price
 		$products[0]['ItemNumber'] = _POST('itemnumber'); //Item Number
-		$products[0]['ItemDesc'] = _POST('itemdesc'); //Item Number
-		$products[0]['ItemQty']	= _POST('itemQty'); // Item Quantity
+		// $products[0]['ItemDesc'] = _POST('itemdesc'); //Item Number
+		$products[0]['ItemQty']	= _POST('TotalQty'); // Item Quantity
 		
 		/*
 		$products[0]['ItemName'] = 'my item 1'; //Item Name

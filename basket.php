@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Japan Go Go</title>
     <?php include("_include/css.php") ?>
-    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 </head>
 
 <body>
@@ -20,6 +19,35 @@
         <?php include("_include/footer.php") ?>
         <?php include("_include/js.php") ?>
     </div>
+    <script>
+    // validate signup form on keyup and submit
+        $("#checkoutForm").validate({
+            rules: {
+                firstname: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                address: {
+                    required: true
+                }
+            },
+            messages: {
+                firstname: {
+                    required: "Please enter the name"
+                },
+                email: {
+                    required: "Please enter a email",
+                    email: "Please enter a valid email address"
+                },
+                address: {
+                    required: "Please provide a address"
+                }
+            }
+        });
+    </script>  
 </body>
 
 </html>

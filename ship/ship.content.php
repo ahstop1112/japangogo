@@ -36,7 +36,7 @@
                        </div> 
                        <div class="col-md-3 col-sm-3 marginBottom-15px">
                             <label>Brands: </label>
-                            <select class="selectpicker" id="duration">
+                            <select class="selectpicker" name="brand">
                                 <option value="gap" selected>Gap</option>
                                 <option value="ape">Ape</option>
                                 <option value="tommy">Tommy Hilfiger</option>
@@ -44,7 +44,7 @@
                        </div> 
                        <div class="col-md-3 col-sm-3 marginBottom-15px">
                             <label>Item Types: </label>
-                            <select class="selectpicker" id="duration">
+                            <select class="selectpicker" name="itemtype">
                                 <option value="sport_nutrition">Sport Nutrition</option>
                                 <option value="sanrio_japan_character">Sanrio Japan Character</option>
                                 <option value="consumer_electrionics">Consumer Electronics</option>
@@ -67,8 +67,8 @@
                        </div> 
                     </div>    
                     <p class="desc">** The Unit Price should input the Discounted Price for Correct Calcuation</p>
-                    <a>+ Add More</a>
-                    <hr>
+<!--                     <a>+ Add More</a>
+ -->                    <hr>
                     <button class="btn btn-s" id="submit_request" type="submit">Send Request</button><button class="btn btn-s grey">Reset</button>
                 
               </form>  

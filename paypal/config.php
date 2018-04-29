@@ -27,4 +27,4 @@
 	define('PPL_RETURN_URL', 'http://localhost/paypal/process.php');
 	define('PPL_CANCEL_URL', 'http://localhost/paypal/cancel_url.php');
 
-	define('PPL_CURRENCY_CODE', 'EUR');
+	define('PPL_CURRENCY_CODE', 'HKD');
