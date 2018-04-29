@@ -26,8 +26,19 @@
                 <li><a id="mm-home" class="smoth-scroll" href="index.php">Home</a></li>
                 <li><a id="mm-services" class="smoth-scroll" href="services.php">Services</a></li>
                 <li><a id="mm-shareShipments" class="smoth-scroll" href="shareShipments.php">Best Sellers</a></li>
+            <?php 
+
+            if ($isLogin) {
+            ?>
+            <?php
+                } else {
+            ?>
+                
                 <li><a id="mm-ship" class="smoth-scroll" href="ship.php">Buy For You</a></li>
-                <li><a id="mm-contact" class="smoth-scroll" href="contact.php">Contact Us</a></li>
+            <?php
+                }
+            ?>  
+               <li><a id="mm-contact" class="smoth-scroll" href="contact.php">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -54,7 +65,18 @@
         <li><a id="mm-home" class="smoth-scroll" href="index.php">Home</a></li>
         <li><a id="mm-services" class="smoth-scroll" href="services.php">Services</a></li>
         <li><a id="mm-shareShipments" class="smoth-scroll" href="shareShipments.php">Best Sellers</a></li>
-        <li><a id="mm-ship" class="smoth-scroll" href="ship.php">Buy For You</a></li>
+        <?php 
+
+            if ($isLogin) {
+        ?>
+        <?php
+            } else {
+        ?>
+            
+            <li><a id="mm-ship" class="smoth-scroll" href="ship.php">Buy For You</a></li>
+        <?php
+            }
+        ?>
         <li><a id="mm-contact" class="smoth-scroll" href="contact.php">Contact Us</a></li>
         <li style="padding-left: 20px"><a class="fab fa-facebook-f" style="display: inline-block;"></a><a class="fab fa-instagram" style="display: inline-block;"></a><a href="basket.php" class="fab fa fa-shopping-cart"style="display: inline-block;"></a><span id="countInCart2"style="display: inline-block; padding: 0">(0)</span></li>
             </ul>

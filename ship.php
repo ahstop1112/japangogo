@@ -112,32 +112,6 @@
            $("#submit_upload").removeAttr('disabled','disabled');
         }
     });
-
-    
-
-        $("#signupForm").validate({
-            // rules: {
-            //     username: {
-            //         required: true,
-            //         email: true
-            //     },
-            //     password: {
-            //         required: true,
-            //         minlength: 5
-            //     }
-            // },
-            // messages: {
-                
-            //     username: {
-            //         required: "Please enter a username",
-            //         email: "Please enter a valid email address"
-            //     },
-            //     password: {
-            //         required: "Please provide a password",
-            //         minlength: "Your password must be at least 5 characters long"
-            //     }
-            // }
-        });
     </script>  
 </body>
 

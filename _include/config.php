@@ -1,20 +1,4 @@
 <?php
-	require_once("./_include/fg_membersite.php");
-
-
-	$fgmembersite = new FGMembersite();
-
-	$fgmembersite->SetWebsiteName('user11.com');
-	$fgmembersite->SetAdminEmail('user11@user11.com');
-	$fgmembersite->InitDB(/*hostname*/'localhost',
-	                      /*username*/'japan',
-	                      /*password*/'j@pan',
-	                      /*database name*/'shop',
-	                      /*table name*/'admin');
-
-	$fgmembersite->SetRandomKey('qSRcVS6DrTzrPvr');
-
-
 
 	$mysql_hostname = "localhost";
 	$mysql_user = "japan";
