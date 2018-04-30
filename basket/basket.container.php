@@ -33,7 +33,7 @@
     <div class="container">
         <form method="post" id="checkoutForm" action="paypal/process.php?paypal=checkout">
 
-        <div class="col-md-9 hidden" id="basket">
+        <div class="col-md-9" id="basket">
 
             <div class="box">
                     <h1>Cart</h1>
@@ -102,7 +102,7 @@
 
         </div>
         <!-- /.col-md-9 -->
-        <div class="col-md-9" id="checkout">
+        <div class="col-md-9 hidden" id="checkout">
 
             <div class="row">
                <div class="col-12">
